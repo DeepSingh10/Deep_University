@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(65, 62, 62, 0.5),rgba(103, 79, 79, 0.5)), url('https://th.bing.com/th/id/R.f524eb8c27f4b721bf8e29fda189c8d6?rik=ReAb2VgwhrjrQw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f1%2fc%2f702524-columbia-university-wallpaper-1920x1080-cell-phone.jpg&ehk=8Rdmp%2fCG7Zg7JkqUWoZhtVFiNaKluoZu22zpfmjhahk%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover; 
+    background-position: top;
+    height: 150vh;
+}
+header{
+    background-image:url('https://th.bing.com/th/id/R.f524eb8c27f4b721bf8e29fda189c8d6?rik=ReAb2VgwhrjrQw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f1%2fc%2f702524-columbia-university-wallpaper-1920x1080-cell-phone.jpg&ehk=8Rdmp%2fCG7Zg7JkqUWoZhtVFiNaKluoZu22zpfmjhahk%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover; 
+    background-position: top;
+    height: 177vh;
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top:25px;
+    margin-left: 30px;
+}
+.head h1{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 4%;
+    color: rgb(218, 208, 208);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav{
+    max-width: 1400px;
+    margin: auto;
+    float: right;
+    margin-right: 100px;
+}
+.nav a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: rgb(221, 220, 220);
+    padding: 9px 22px;
+    transition: 0.6s ease;
+    border: 1px solid transparent;
+    margin-top: 60px;
+}
+.nav a:hover{
+    background-color: #fff;
+    color: black;
+}
+.nav a.active{
+    background-color: #fff;
+    color: black;
+}
+.search-container {
+    float: right;
+  }
+  
+.search-container input[type=text] {
+    padding: 6px 10px;
+    margin-top: 58px;
+    font-size: 17px;
+    border: none;
+    height: 28px;
+  }
+  
+.search-container a{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 58px;
+    margin-right: 100px;
+    background: rgb(240, 236, 236);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+  }
+  
+.search-container a:hover {
+    background: #ccc;
+  }
+.search-container a img{
+   height: 30px;
+   width: 30px;
+   align-self: center;
+  float:left;
+  }
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    right: 2%;
+
+}
+.content video{
+    float: right;
+    height:auto;
+    width: 50%;
+    margin-top: -26%;
+    /* margin-right: 3%; */
+}
+.content p{
+    font-size: 18px;
+    color: rgb(255, 247, 247);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content h1{
+    color:rgba(248, 243, 243, 0.768);
+    font-family:Arial, Helvetica, sans-serif
+}
+footer{
+    /* margin-top: 1%; */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/518/751/original/vector-black-triangular-abstract-texture-low-light-background.jpg');
+    background-size: cover; 
+    background-position:bottom;
+    height: 30vh;
+}
+.dnav{
+    max-width: 1400px;
+    margin:initial;
+    margin-left: 7%;
+    color: white;
+}
+.dnav ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    color: white;
+}
+.dnav h1{
+    margin-top: 2%;
+}
+.dnav ul li a{
+    float: left;
+    /* display: block; */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 9px 22px;
+    transition: 0.6s ease;
+    border: 1px solid transparent;
+}
+.dnav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.bnav{
+    float:right;
+    max-width: 1400px;
+  margin-right:7%;
+  color: white;
+}
+.bnav a{
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* padding: 9px 22px; */
+    transition: 0.6s ease;
+    border: 1px solid transparent;
+    /* margin-top: 60px; */
+}
+.bnav h1{
+    margin-left: 26%;
+    margin-top: -8%;
+}
+.bnav img{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid rgb(104, 218, 231);
+    transition: 0.6s ease;
+}
+.bnav a img:hover{
+    background-color: rgb(108, 170, 206);
+    color: rgb(249, 246, 246);
+}
+
+.slider--container {
+	position:absolute;/* "relative", so that h1 and images can be set absolutely */
+	height: 90vh; /* Adjust the height to your needs here */
+	width: 99vw; /* Adjust the width to your needs here */
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: .125rem;
+	box-shadow: 0 0 .1rem .125rem rgba(0, 0, 0, 0.25);
+    margin-top: 43%;
+    /* margin-left: 2%; */
+}
+.slider--heading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 1rem;
+	z-index: 99;
+	font: 300 1.25rem/1.25 Verdana, sans-serif;
+	text-align: center;
+	background-color: rgba(198, 193, 193, 0.5);
+	color: rgba(0, 0, 0, 0.5);
+	transform: translate3d(-50%, -50%, 0);
+}
+.slider--heading h1 {
+	font: 300 1.25rem/1.25 Verdana, sans-serif;
+	text-transform: uppercase;
+	color: rgb(16, 16, 16);
+}
+@media only screen and (min-width : 30em) {
+    .slider--heading h1 {font-size: 1.5rem;}
+}
+/* ===== == = === 48em (768px) === = == ===== */
+@media only screen and (min-width : 48em) {
+    .slider--heading h1 {font-size: 1.75rem;}
+}
+.slider--image {
+	position: absolute;
+    /* margin-top: 40%; */
+	z-index: 1;
+	left:0;
+	top:0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	animation: 45s ease-in-out infinite;
+} 
+ /* Name of animations and selection of images */
+.slider--image:nth-of-type(1) {
+	animation-name: slide-01;
+}
+.slider--image:nth-of-type(2) {
+	animation-name: slide-02;
+}
+.slider--image:nth-of-type(3) {
+	animation-name: slide-03;
+}
+
+/* Images are overlaid and visible or invisible due to different transparency */
+/* Moving the images with transform: scale & translate */
+	/* Styles for webkit browsers */
+@-webkit-keyframes slide-01 {
+	0%  { opacity:1; -webkit-transform: scale(1.4) translate(0, 0);}
+	16%  {opacity:1; -webkit-transform: scale(1.2) translate(-20px, -10px);}
+	33%  {opacity:0; -webkit-transform: scale(1.4) translate(0, 0);}
+	50%  {opacity:0;}
+	67%  {opacity:0;}
+	84%  {opacity:0;}
+	100%  {opacity:1; -webkit-transform: scale(1.4) translate(0, 0);}
+}
+@-webkit-keyframes slide-02 {
+	0%  { opacity:0;}
+	16%  {opacity:0; -webkit-transform: scale(1.2) translate(-20px, -10px);}
+	33%  {opacity:1; -webkit-transform: scale(1.4) translate(0, 0);}
+	50%  {opacity:1; -webkit-transform: scale(1.2) translate(-20px, 10px);}
+	67%  {opacity:0; -webkit-transform: scale(1.4) translate(0, 0);}
+	84%  {opacity:0;}
+	100%  {opacity:0;}
+}
+@-webkit-keyframes slide-03 {
+	0%  { opacity:0;}
+	16%  {opacity:0;}
+	33%  {opacity:0;}
+	50%  {opacity:0; -webkit-transform: scale(1.4) translate(0, 0);}
+	67%  {opacity:1; -webkit-transform: scale(1.4) translate(-20px, 10px);}
+	84%  {opacity:1; -webkit-transform: scale(1.2) translate(20px, -10px);}
+	100%  {opacity:0; -webkit-transform: scale(1.4) translate(0, 0);}
+}
+
+	/* Styles for all other browsers */
+@keyframes slide-01 {
+	0%  { opacity:1; transform: scale(1.4) translate(0, 0);}
+	16%  {opacity:1; transform: scale(1.2) translate(-20px, -10px);}
+	33%  {opacity:0; transform: scale(1.4) translate(0, 0);}
+	50%  {opacity:0;}
+	67%  {opacity:0;}
+	84%  {opacity:0;}
+	100%  {opacity:1; transform: scale(1.4) translate(0, 0);}
+}
+@keyframes slide-02 {
+	0%  { opacity:0;}
+	16%  {opacity:0; transform: scale(1.2) translate(-20px, -10px);}
+	33%  {opacity:1; transform: scale(1.4) translate(0, 0);}
+	50%  {opacity:1; transform: scale(1.2) translate(-20px, 10px);}
+	67%  {opacity:0; transform: scale(1.4) translate(0, 0);}
+	84%  {opacity:0;}
+	100%  {opacity:0;}
+}
+@keyframes slide-03 {
+	0%  { opacity:0;}
+	16%  {opacity:0;}
+	33%  {opacity:0;}
+	50%  {opacity:0; transform: scale(1.4) translate(0, 0);}
+	67%  {opacity:1; transform: scale(1.4) translate(-20px, 10px);}
+	84%  {opacity:1; transform: scale(1.2) translate(20px, -10px);}
+	100%  {opacity:0; transform: scale(1.4) translate(0, 0);}
+}
+.stats ul{
+    /* float: left; */
+    list-style-type: none;
+}
+.stats ul li a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    padding: 9px 22px;
+    transition: 0.6s ease;
+    border: 1px solid transparent;
+    margin-top: 60px;
+    margin-left: 9%;
+    background-color: rgb(249, 245, 243);
+}
+.stats ul li a:hover{
+    background-color: rgb(12, 11, 11);
+    color: rgb(254, 248, 248);
+}
+.stats ul li img{
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 50px;
+    width: 50px;
+}
+.stats ul li p{
+    margin-left: 43%;
+    margin-top: -3%;
+}
+.stats img{
+    margin-left: 40%;
+    margin-top: -11%;
+    height: 50px;
+    width: 70px;
+}
+.stats p{
+    margin-left: 74%;
+    margin-top: -3%;
+}
+.about{
+    color: rgb(255, 255, 255);
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.cnav h1{
+    margin-left: 42%;
+    margin-top: -2%;
+    color: white;
+}
+.cnav ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    color: white;
+    margin-left: 23%;
+}
+.cnav ul li a{
+    float: left;
+    /* display: block; */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 9px 22px;
+    transition: 0.6s ease;
+    border: 1px solid transparent;
+}
+.cnav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.iframe{
+    margin-left: 28%;
+    margin-top: 2%;
+    height: 60px;
+    width: 60px;
+}
+body h2{
+    margin-left: 35%;
+    margin-top: 2%;
+    color: aliceblue;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="query_style.css">
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Query Has Been Recorded.";
+        }
+        </script>
+</head>
+<body>
+    <div class="main">
+        <div class="main1">
+            <img src="WhatsApp Image 2022-07-16 at 10.42.49 AM.jpeg">
+        <h1>Contact Us Here</h1>
+        </div>
+        <form class="form" i="form">
+            <div class="form-control">
+                <label>Your Name</label>
+                <input type="text" name="i" id="name" placeholder="Enter Your First Name"  autocomplete="off">
+            </div>
+            <div class="form-control">
+                <label>E-Mail Address</label>
+                <input type="email" name="" id="email" placeholder="Enter Your E-mail address" autocomplete="off">
+            </div>
+            <div class="form-control">
+                <label>Phone Number</label>
+                <input type="tel" name="" id="number" placeholder="Enter Your Phone Number" autocomplete="off">
+            </div>
+            <div class="form-control">
+                <label>Your Message</label>
+                <textarea rows = "7" cols = "60" name = "description"></textarea>
+            </div>
+            <button class="button" type="button" onclick="myFunction()">Submit</button><br>
+            <p id="demo" style="font-family: cursive; text-align: center;"></p>
+            <a href="index.html" class="but">Home</a>
+            </form>
+            </div>
+</body>
+</html>
